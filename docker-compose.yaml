@@ -1,0 +1,9 @@
+version: '0.0.1'
+services:
+  calculator:
+    build: ./frontend
+    container_name: calculator
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true 
